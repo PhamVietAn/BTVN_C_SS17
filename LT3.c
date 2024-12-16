@@ -79,7 +79,7 @@ int main(){
 
 }
 
-void addString(char *str, int size) {
+void addString(char *str, int size){
     printf("Nhap vao chuoi ky tu: ");
     fgets(str, size, stdin);
     str[strcspn(str, "\n")] = '\0';
